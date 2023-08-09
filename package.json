@@ -1,0 +1,38 @@
+{
+  "name": "webpack-dart-sass-glob",
+  "version": "0.1.0",
+  "description": "Dart sass loader that enables the use of glob with webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --config test/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsubasa187726/webpack-dart-sass-glob.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "dart-sass",
+    "glob"
+  ],
+  "author": "Tsubasa Morita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsubasa187726/webpack-dart-sass-glob/issues"
+  },
+  "homepage": "https://github.com/tsubasa187726/webpack-dart-sass-glob#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.64.2",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-remove-empty-scripts": "^1.0.3",
+    "webpack-watched-glob-entries-plugin": "^2.2.6"
+  },
+  "dependencies": {
+    "glob": "^10.3.3"
+  }
+}
