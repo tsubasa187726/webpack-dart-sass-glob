@@ -31,5 +31,8 @@
     "webpack-cli": "^5.1.4",
     "webpack-remove-empty-scripts": "^1.0.3",
     "webpack-watched-glob-entries-plugin": "^2.2.6"
+  },
+  "dependencies": {
+    "glob": "^10.3.3"
   }
 }

@@ -40,9 +40,10 @@ module.exports = {
                 outputStyle: "expanded",
               },
             },
-          }
+          },
+          path.resolve(__dirname, "../index.js")
         ]
-      }
+      },
     ]
   },
   plugins: [
